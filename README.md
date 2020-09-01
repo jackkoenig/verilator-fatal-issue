@@ -20,6 +20,7 @@ make install
 ```
 
 Install Verilator (https://www.veripool.org/projects/verilator/wiki/Installing) and set `VERILATOR` to point to the binary
+(or just make sure it's on your `PATH`)
 
 ```bash
 export VERILATOR=/path/to/verilator/bin/verilator
@@ -108,6 +109,6 @@ Suprisingly the problematic one also doesn't fire.
 
 ### Additional information
 
-* The issue manifests on Verilator optimization levels `O1` and `O2` but does *not* manifest on `O0`
-* The issue manifests on Verilator versions 4.040, 4.036, and 4.008
+* The issue manifests on Verilator optimization levels `O1` and `O2` but does **not** manifest on `O0`
+* The issue manifests on every Verilator version I tried: 4.040, 4.036, 4.032, and 4.008
 
