@@ -110,5 +110,5 @@ Suprisingly the problematic one also doesn't fire.
 ### Additional information
 
 * The issue manifests on Verilator optimization levels `O1` and `O2` but does **not** manifest on `O0`
-* The issue manifests on every Verilator version I tried: 4.040, 4.036, 4.032, and 4.008
+* The issue manifests on every Verilator version I tried: v4.040-70-g600641b, v4.040, v4.036, v4.032, and v4.008
 
