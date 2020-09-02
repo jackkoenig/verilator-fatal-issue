@@ -59,7 +59,11 @@ make clean
 DEFINES="NONFATAL=1" DEBUG=1 make
 ```
 
-Viewing the VCD from this extended run illustrates the issue.
+Viewing the VCD from this extended run illustrates the issue. For example:
+
+![](images/vcd.png)
+
+Module to look inside: `TOP.TestHarness.ldut.debug.dmOuter.dmiXbar.monitor`
 
 ### The issue
 
