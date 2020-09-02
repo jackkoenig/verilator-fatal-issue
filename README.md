@@ -3,6 +3,27 @@
 
 **Note**: I suggest you use make parallelism on any Make command
 
+
+#### Assumed dependencies
+
+`git`, `g++`, `make`, `autoconf`
+
+#### Less common dependencies
+
+Ubuntu instructions
+```bash
+# device-tree-compiler
+apt-get install device-tree-compiler
+```
+
+MacOS instructions (using Homebrew)
+```bash
+# device-tree-compiler
+brew install dtc
+```
+
+#### Required Setup
+
 Clone the repo and checkout submodules
 
 ```bash
